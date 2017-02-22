@@ -1,3 +1,10 @@
+<!--
+File name: home.html
+Author: Robert Page
+Student	ID: 200281838
+Date: 2017-02-22
+-->
+
 <!-- Header -->
 <ion-header>
   <ion-navbar>
@@ -8,15 +15,43 @@
 
 <!-- Main Content -->
 <ion-content padding>
-  
-    
-      <ion-input type="text" name="name" placeholder="Enter New List Name" id="Name"></ion-input>
-      <ion-label>My Shopping List: </ion-label>
-      <ion-input type="text" name="name" placeholder="Enter New List Item" id="Name"></ion-input>
+
+
+  <ion-input type="text" name="name" placeholder="Enter New List Name" id="Name"></ion-input>
+  <ion-label>My Shopping List: </ion-label>
+
+<!-- shopping list -->
+  <ion-list>
+    <ion-item>
+      <ion-label>Enter New List Item</ion-label>
       <ion-label>Quantity</ion-label>
-        <!-- Edit button -->
-        <button ion-button color="primary">Save</button>
-        <!-- Delete button -->
-        <button ion-button color="primary">Cancel</button>
-      
+    </ion-item>
+    <ion-item>
+      <ion-input></ion-input>
+      <ion-input type="number"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input></ion-input>
+      <ion-input type="number"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input></ion-input>
+      <ion-input type="number"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input></ion-input>
+      <ion-input type="number"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-input></ion-input>
+      <ion-input type="number"></ion-input>
+    </ion-item>
+  </ion-list>
+
+
+  <!-- Save button -->
+  <button ion-button color="primary">Save</button>
+  <!-- Cancel button -->
+  <button ion-button color="primary">Cancel</button>
+
 </ion-content>
